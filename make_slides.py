@@ -4,7 +4,7 @@ import os
 from pypandoc import convert_file
 
 # os.getcwd()
-os.chdir('/Users/ocallaghang2/Desktop/Python_Github/Class_project/spring2019-solo-project-georgiaoc')
+os.chdir('/Users/ocallaghang2/Desktop/Python_Github/Class_project/biof309_assignment')
 
 def write_file(filename: str, contents: str) -> None:
     """Writes contents to a file named filename
@@ -50,13 +50,13 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
         '<div id="markdown-header" class="titleslide slide section level1"><h1>Markdown header</h1></div>'
     """
     if target in ('slidy', 'dzslides', 'revealjs'):
-        return convert_file(source, to=target, extra_args=['--self-contained']
+        return convert_file(source, to=target, extra_args=['--self-contained', '--incremental']
                             if target is not 'revealjs'
                             else ['-sV', 'revealjs-url=https://revealjs.com'])
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
-write_file('Georgia.html', make_slides(source='Georgia.md', target='slidy'))
+write_file('Georgia_final.html', make_slides(source='Georgia.md', target='slidy'))
 
 # if __name__ == '__main__':
 #     pytest.main(sys.argv)

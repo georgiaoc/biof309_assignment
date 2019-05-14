@@ -40,9 +40,14 @@
 
 # Result 
 
-- Demo graph
+- [Demo graph](file:///Users/ocallaghang2/Desktop/Python_Github/Class_project/biof309_assignment/CBT_plot.html)
 
 # What I learnt
 
 - Failures/problems
 - Take away 
+
+# The end 
+
+- Thanks to Martin, Jinping, Michael & Nick!
+- Questions? 
