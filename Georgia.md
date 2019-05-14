@@ -42,6 +42,7 @@
 
 - [Demo graph](file:///Users/ocallaghang2/Desktop/Python_Github/Class_project/biof309_assignment/CBT_plot.html)
 - [Attempt 2](https://github.com/georgiaoc/biof309_assignment/blob/master/CBT_plot.html)
+- [Attempt 3](https://georgiaoc.github.io/biof309_assignment/CBT_plot.html)
 
 # What I learnt
 
