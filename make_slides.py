@@ -56,7 +56,7 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
-write_file('Georgia_final.html', make_slides(source='Georgia.md', target='slidy'))
+write_file('Georgia_final2.html', make_slides(source='Georgia.md', target='slidy'))
 
 # if __name__ == '__main__':
 #     pytest.main(sys.argv)
